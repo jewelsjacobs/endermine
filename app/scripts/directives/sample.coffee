@@ -1,5 +1,5 @@
 "use strict"
-angular.module("juli7168.GithubPrReport").directive "ngHelloWorld", ->
+angular.module("endermine").directive "ngHelloWorld", ->
   restrict: "EAC"
   scope: true
   compile: compile = (tElement, tAttrs) ->

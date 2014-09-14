@@ -1,5 +1,5 @@
 "use strict"
-angular.module("juli7168.GithubPrReport", [
+angular.module("endermine", [
   "ngAnimate"
   "ngCookies"
   "ngResource"

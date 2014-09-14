@@ -1,5 +1,5 @@
 "use strict"
-angular.module("juli7168.GithubPrReport").filter("time", ->
+angular.module("endermine").filter("time", ->
   (obj) ->
     +new Date(obj)
 ).filter "startFrom", ->

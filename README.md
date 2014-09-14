@@ -1,12 +1,5 @@
-# GithubPrReport
+# Endermine Minecraft Server Website
 
-Yet another amazing AngularJS app
+AngularJS, Bootstrap Express app
 
-## Getting Started
-
-## Documentation
-_(Coming soon)_
-
-## Examples
-_(Coming soon)_
-
+http://minecraft.endermine.io

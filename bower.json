@@ -1,20 +1,20 @@
 {
-  "name": "github-pr-report",
+  "name": "endermine",
   "version": "0.1.0",
-  "description": "Yet another amazing AngularJS app",
+  "description": "Endermine Minecraft Server",
   "keywords": [
-    "angular"
+    "minecraft"
   ],
-  "homepage": "/github-pr-report",
-  "bugs": "/github-pr-report/issues",
+  "homepage": "http://minecraft.endermine.io",
+  "bugs": "https://github.com/jewelsjacobs/endermine/issues",
   "author": {
-    "name": "",
-    "email": "",
-    "url": ""
+    "name": "Julia Jacobs",
+    "email": "jjacobs2000@me.com",
+    "url": "http://html5devgal.com"
   },
   "repository": {
     "type": "git",
-    "url": "/github-pr-report.git"
+    "url": "https://github.com/jewelsjacobs/endermine.git"
   },
   "licenses": [
     {
@@ -34,6 +34,10 @@
     "angular-route": "^1.3.0-rc.1",
     "angular-sanitize": "^1.3.0-rc.1",
     "angular-touch": "^1.3.0-rc.1",
+    "angular": "^1.3.0-rc.1"
+  },
+  "resolutions": {
+    "angular-animate": "^1.3.0-rc.1",
     "angular": "^1.3.0-rc.1"
   }
 }

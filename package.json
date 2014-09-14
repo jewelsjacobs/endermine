@@ -1,27 +1,34 @@
 {
-  "name": "github-pr-report",
+  "name": "endermine",
   "version": "0.1.0",
-  "description": "Yet another amazing AngularJS app",
+  "description": "Endermine Minecraft Server",
   "keywords": [
-    "angular"
+    "minecraft"
   ],
-  "homepage": "/github-pr-report",
-  "bugs": "/github-pr-report/issues",
+  "homepage": "http://minecraft.endermine.io",
+  "bugs": "https://github.com/jewelsjacobs/endermine/issues",
   "author": {
-    "name": "",
-    "email": "",
-    "url": ""
+    "name": "Julia Jacobs",
+    "email": "jjacobs2000@me.com",
+    "url": "http://html5devgal.com"
   },
   "repository": {
     "type": "git",
-    "url": "/github-pr-report.git"
+    "url": "https://github.com/jewelsjacobs/endermine.git"
   },
   "licenses": [
     {
       "type": "MIT"
     }
   ],
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.1.2",
+    "body-parser": "^1.1.2",
+    "errorhandler": "^1.0.1",
+    "method-override": "^1.0.0",
+    "lodash": "~2.4.1",
+    "coffee-script": "^1.8.0"
+  },
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-angular-templates": "^0.5.7",
@@ -34,6 +41,7 @@
     "grunt-contrib-copy": "^0.5.0",
     "grunt-contrib-cssmin": "^0.10.0",
     "grunt-contrib-htmlmin": "^0.3.0",
+    "grunt-contrib-imagemin": "^0.8.1",
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-contrib-less": "^0.11.4",
     "grunt-contrib-uglify": "^0.5.1",
@@ -43,6 +51,7 @@
     "grunt-ng-annotate": "^0.3.2",
     "grunt-nginclude": "^0.4.1",
     "grunt-rev": "^0.1.0",
+    "grunt-svgmin": "^1.0.0",
     "grunt-usemin": "^2.4.0",
     "grunt-wiredep": "^1.9.0",
     "jshint-stylish": "^0.4.0",
