@@ -8,13 +8,13 @@ angular.module("endermine", [
   "ngTouch"
   "mgcrea.ngStrap"
 ]).constant("version", "v0.1.0").config ($locationProvider, $routeProvider) ->
-  $locationProvider.html5Mode false
+  $locationProvider.html5Mode true
   $routeProvider.when("/",
-    templateUrl: "views/home.html"
-  ).when("/features",
-    templateUrl: "views/features.html"
-  ).when("/contact",
-    templateUrl: "views/contact.html"
+    templateUrl: "views/server.html"
+  ).when("/vip",
+    templateUrl: "views/vip.html"
+  ).when("/vip_plus",
+    templateUrl: "views/vip_plus.html"
   ).otherwise redirectTo: "/"
   return
 
