@@ -337,6 +337,8 @@ module.exports = (grunt) ->
     
     # Run some tasks in parallel to speed up the build process
     concurrent:
+      logConcurrentOutput: true
+      limit: 5
       server: [
         "coffee:dist"
         "less:dev"
