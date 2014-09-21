@@ -402,7 +402,6 @@ module.exports = (grunt) ->
               "views/{,*/}*.html"
               "bower_components/**/*"
               "images/{,*/}*.{webp}"
-              "images/{,*/}*.{png,jpg,jpeg,gif}"
               "fonts/*"
             ]
           }
@@ -436,8 +435,6 @@ module.exports = (grunt) ->
       dist: [
         "coffee"
         "less:dist"
-#        "imagemin"
-        "svgmin"
       ]
 
     
