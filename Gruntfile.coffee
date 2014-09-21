@@ -435,7 +435,7 @@ module.exports = (grunt) ->
       dist: [
         "coffee"
         "less:dist"
-        "imagemin"
+#        "imagemin"
         "svgmin"
       ]
 
